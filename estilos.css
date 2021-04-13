@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
 }
@@ -38,7 +38,9 @@ td {
 }
 
 
-.th, h2, h4 {
+.th,
+h2,
+h4 {
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #e6e6e6;
@@ -62,12 +64,12 @@ table {
     font-size: 25px;
 }
 
-.lista{
+.lista {
     color: cadetblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1 {
     color: gray;
 }
 
@@ -104,7 +106,7 @@ p {
 
 .grid-container .grid-item:hover {
     transform: scale(1.1);
-    
+
 }
 
 .grid-container .grid-item {
@@ -122,7 +124,7 @@ p {
     font-size: 25px;
 }
 
-.img-colegas{
+.img-colegas {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -174,7 +176,8 @@ h3 {
 
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
@@ -188,7 +191,7 @@ textarea {
 }
 
 #boton {
-    background:turquoise;
+    background: turquoise;
     color: white;
     padding: 20px;
     text-align: center;
@@ -209,42 +212,42 @@ textarea {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    
+
 }
 
- /* ------------------CAROUSEL ----------------*/
+/* ------------------CAROUSEL ----------------*/
 
- .carousel-caption {
-	background-color: rgba(32, 30, 30, 0.75);
-	/* height: 100%; */
-	left: 0;
-	bottom: 0;
-	padding: 25px 25px 50px;
-	text-align: left;
-	width: 100%;
+.carousel-caption {
+    background-color: rgba(32, 30, 30, 0.75);
+    /* height: 100%; */
+    left: 0;
+    bottom: 0;
+    padding: 25px 25px 50px;
+    text-align: left;
+    width: 100%;
 }
 
-	.carousel-caption h2 {
-		font-size: 26px;
-	}
+.carousel-caption h2 {
+    font-size: 26px;
+}
 
-    @media (max-width: 844px) {
-        .carousel-item img{
-            position: relative;
-            width: 100%;
-            height: 100%;
-         }
-
-         .carousel-caption {
-             position: relative;
-             width: 100%;
-			 background-color: rgba(41, 23, 1, 0.75);
-         }
-
-         .navbar {
-             position: fixed;
-         }
+@media (max-width: 844px) {
+    .carousel-item img {
+        position: relative;
+        width: 100%;
+        height: 100%;
     }
+
+    .carousel-caption {
+        position: relative;
+        width: 100%;
+        background-color: rgba(41, 23, 1, 0.75);
+    }
+
+    .navbar {
+        position: fixed;
+    }
+}
 
 
 /* ------------------- QUIENES SOMOS ----------------- */
@@ -253,3 +256,37 @@ li {
     font-size: 19px;
     color: white;
 }
+
+
+/* --------------------ADOPTA -------------------------*/
+
+.modales {
+    padding: 50px;
+}
+
+.cont-adop {
+    padding: 25px;
+}
+
+p {
+    color: black;
+}
+
+
+/* --------------------BENEFICIOS -------------------------*/
+i {
+    color: rgb(31, 30, 30);
+    width: 120px;
+    height: 120px;
+    background-color: #ffd484f8;
+    border-radius: 125px;
+    text-align: center;
+    padding: 5%;
+    font-size: 450%;
+    margin: 30px;
+}
+
+.container cont-benef {
+    padding: 300px;
+}
+
